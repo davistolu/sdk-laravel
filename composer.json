@@ -1,6 +1,6 @@
 {
-  "name": "autobridge/sdk-laravel",
-  "description": "AutoBridge SDK for Laravel — automatically wire your Laravel API to any frontend via the AutoBridge runtime framework",
+  "name": "wirebridge/sdk-laravel",
+  "description": "WireBridge SDK for Laravel — automatically wire your Laravel API to any frontend via the AutoBridge runtime framework",
   "type": "library",
   "license": "Apache-2.0",
 
@@ -24,10 +24,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "AutoBridge\\AutoBridgeServiceProvider"
+        "WireBridge\\WireBridgeServiceProvider"
       ],
       "aliases": {
-        "Bridge": "AutoBridge\\Facades\\Bridge"
+        "Bridge": "WireBridge\\Facades\\Bridge"
       }
     }
   },
